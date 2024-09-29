@@ -1,0 +1,11 @@
+<div class="maindiv">
+    <div>
+        {{title}} <hr>
+    </div>
+    <div class="projects">
+        <div class="project" *ngFor="let p of projects">
+            <div><a href="">{{p.ProjectName}}</a></div>
+            <div>{{p.Description}}</div>           
+        </div>        
+    </div>
+</div>

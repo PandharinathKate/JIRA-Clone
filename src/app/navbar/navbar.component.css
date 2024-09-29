@@ -1,0 +1,21 @@
+.maindiv{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+a:hover{
+    background-color: lightgrey;
+}
